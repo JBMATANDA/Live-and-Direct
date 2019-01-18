@@ -24,7 +24,7 @@ namespace Store
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/pulse.min.css",
                       "~/Content/site.css"));
         }
     }
