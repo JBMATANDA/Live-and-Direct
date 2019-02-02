@@ -9,16 +9,16 @@
     height: 100vh;
     /*Flexbox stuff*/
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;
+    align-items: center;*/
     /*Text Styles*/
     text-align: center;
     /* Background styles */
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('O2.jpg');
-    background-size: cover;
+    /*background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
 
     .hero h1 {
@@ -50,3 +50,37 @@
         border: 3px solid white;
         border-radius: 20px;
     }
+
+nav {
+    max-width: 960px;
+    mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+nav ul {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 18px;
+    font-family: "Open Sans";
+    text-transform:uppercase;
+    color: rgba(0, 35, 122, 0.5);
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(0, 35, 122, 0.7);
+}
+

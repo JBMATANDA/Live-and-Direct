@@ -15,5 +15,7 @@ namespace Store.Models.DataContext
         public DbSet<Products> Products { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Event> Events { get; set; }
+        public DbSet<Ticket> Tickets { get; set; }
     }
 }
